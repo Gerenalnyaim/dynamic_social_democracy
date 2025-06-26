@@ -156,7 +156,7 @@ Removed 100 budget from the country's stockpile. This doesn't go to the homeless
 
 @editrelations
 
-- @increasecenterrel: Increase Relations With The Center Party
+- @increasecenterrel: Increase Relations With The <span style="color: #000000;">Center Party</span>
 - @decreasecenterrel: Decrease Relations With The Center Party
 - @increasekpdrel: Increase Relations With The KPD
 - @decreasekpdrel: Decrease Relations With The KPD
