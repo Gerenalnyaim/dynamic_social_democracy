@@ -1114,7 +1114,6 @@ Unbanned the NSDAP.
 @form_kpo
 on-arrival: {!
 Q.kpo_formed = 1;
-// set up the infrastructure
 Q.parties.push('kpo');
 Q.parties_graph.push('kpo');
 
@@ -1138,7 +1137,6 @@ Q.old_rural_kpo_display = 0;
 Q.old_unemployed_kpo_display = 0;
 Q.old_catholics_kpo_display = 0;
 
-// update all records
 Q.kpo_r = 0;
 Q.old_kpo_r = 0;
 for (var record of Q.election_records) {
@@ -2608,6 +2606,7 @@ These parties are doomed to eternal infighting
 @editpartysupport
 
 - @spd_support: Edit SPD Support
+- @rdp_support: Edit RDP Support
 - @sapd_support: Edit SAPD Support
 - @center_support: Edit Center Support
 - @kpo_support: Edit KPO Support
@@ -2706,6 +2705,118 @@ Q.rural_spd -= 20;
 !}
 
 Lowered Rural support for SPD.
+
+@spd_unemployed_up
+go-to: spd_support
+on-arrival: {!
+Q.unemployed_spd += 20;
+!}
+
+Raised Unemployed support for SPD.
+
+@spd_unemployed_down
+go-to: spd_support
+on-arrival: {!
+Q.unemployed_spd -= 20;
+!}
+
+Lowered Unemployed support for SPD.
+
+@spd_catholics_up
+go-to: spd_support
+on-arrival: {!
+Q.catholics_spd += 20;
+!}
+
+Raised Catholics support for SPD.
+
+@spd_catholics_down
+go-to: spd_support
+on-arrival: {!
+Q.catholics_spd -= 20;
+!}
+
+Lowered Catholics support for SPD.
+
+@rdp_support
+
+- @rdp_worker_up: Increase RDP Worker Support
+- @rdp_worker_down: Decrease RDP Worker Support
+- @rdp_old_middle_up: Increase RDP Old Middle Support
+- @rdp_old_middle_down: Decrease RDP Old Middle Support
+- @rdp_new_middle_up: Increase RDP New Middle Support
+- @rdp_new_middle_down: Decrease RDP New Middle Support
+- @rdp_rural_up: Increase RDP Rural Support
+- @rdp_rural_down: Decrease RDP Rural Support
+- @rdp_unemployed_up: Increase RDP Unemployed Support
+- @rdp_unemployed_down: Decrease RDP Unemployed Support
+- @rdp_catholics_up: Increase RDP Catholics Support
+- @rdp_catholics_down: Decrease RDP Catholics Support
+- @returnpartysupport: Return To Party Support Menu
+
+@rdp_worker_up
+go-to: rdp_support
+on-arrival: {!
+Q.workers_rdp += 20;
+!}
+
+Raised worker support for RDP.
+
+@rdp_worker_down
+go-to: rdp_support
+on-arrival: {!
+Q.workers_rdp -= 20;
+!}
+
+Lowered worker support for RDP.
+
+@rdp_old_middle_up
+go-to: rdp_support
+on-arrival: {!
+Q.old_middle_rdp += 20;
+!}
+
+Raised Old Middle Class support for RDP.
+
+@rdp_old_middle_down
+go-to: rdp_support
+on-arrival: {!
+Q.old_middle_rdp -= 20;
+!}
+
+Lowered Old Middle Class support for RDP.
+
+@rdp_new_middle_up
+go-to: rdp_support
+on-arrival: {!
+Q.new_middle_rdp += 20;
+!}
+
+Raised New Middle Class support for RDP.
+
+@spd_new_middle_down
+go-to: spd_support
+on-arrival: {!
+Q.new_middle_spd -= 20;
+!}
+
+Lowered New Middle Class support for RDP.
+
+@rdp_rural_up
+go-to: rdp_support
+on-arrival: {!
+Q.rural_rdp += 20;
+!}
+
+Raised Rural support for RDP.
+
+@rdp_rural_down
+go-to: rdp_support
+on-arrival: {!
+Q.rural_rdp -= 20;
+!}
+
+Lowered Rural support for rdp.
 
 @spd_unemployed_up
 go-to: spd_support
