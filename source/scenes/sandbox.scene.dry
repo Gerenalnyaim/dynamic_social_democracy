@@ -2505,7 +2505,6 @@ Formed the DNEF
 on-arrival: {!
 
 Q.aspd_other = 1
-Q.aspd_kvp = 1;
 Q.parties.push('aspd');
 Q.parties_graph.push('aspd');
 
