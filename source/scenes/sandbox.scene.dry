@@ -728,12 +728,12 @@ Lowered nazi urgency.
 - @lowersamilitancy: Lower SA Militancy
 - @bansa: Ban SA
 - @unbansa: Unban SA
-- @raiserfbstrength: Raise RFB Strength
-- @lowerrfbstrength: Lower RFB Strength
-- @raiserfbmilitancy: Raise RFB Militancy
-- @lowerrfbmilitancy: Lower RFB Militancy
-- @banrfb: Ban RFB
-- @unbanrfb: Unban RFB
+- @raiserfbstrength: Raise <span style="color: #8B0000;">Rotfrontkämpferbund</span> Strength
+- @lowerrfbstrength: Lower <span style="color: #8B0000;">Rotfrontkämpferbund</span> Strength
+- @raiserfbmilitancy: Raise <span style="color: #8B0000;">Rotfrontkämpferbund</span> Militancy
+- @lowerrfbmilitancy: Lower <span style="color: #8B0000;">Rotfrontkämpferbund</span> Militancy
+- @banrfb: Ban <span style="color: #8B0000;">Rotfrontkämpferbund</span>
+- @unbanrfb: Unban <span style="color: #8B0000;">Rotfrontkämpferbund</span>
 - @returnsandbox: Return To Sandbox Menu
 
 @raiserbstrength
@@ -892,7 +892,7 @@ on-arrival: {!
 Q.rfb_strength += 200;
 !}
 
-Raised RFB strength by 200.
+Raised <span style="color: #8B0000;">Rotfrontkämpferbund</span> strength by 200.
 
 @lowerrfbstrength
 go-to: editparamilitary
@@ -900,7 +900,7 @@ on-arrival: {!
 Q.rfb_strength -= 200;
 !}
 
-Lowered RFB strength by 200.
+Lowered <span style="color: #8B0000;">Rotfrontkämpferbund</span> strength by 200.
 
 @raiserfbmilitancy
 go-to: editparamilitary
@@ -908,7 +908,7 @@ on-arrival: {!
 Q.rfb_militancy += 0.15;
 !}
 
-Raised RFB militancy.
+Raised <span style="color: #8B0000;">Rotfrontkämpferbund</span> militancy.
 
 @lowerrfbmilitancy
 go-to: editparamilitary
@@ -916,7 +916,7 @@ on-arrival: {!
 Q.rfb_militancy -= 0.15;
 !}
 
-Lowered RFB militancy.
+Lowered <span style="color: #8B0000;">Rotfrontkämpferbund</span> militancy.
 
 @banrfb
 go-to: editparamilitary
@@ -925,7 +925,7 @@ on-arrival: {!
 Q.rfb_banned = 1;
 !}
 
-Banned the RFB.
+Banned the <span style="color: #8B0000;">Rotfrontkämpferbund</span>.
 
 @unbanrfb
 go-to: editparamilitary
@@ -934,7 +934,7 @@ on-arrival: {!
 Q.rfb_banned = 0;
 !}
 
-Unbanned the RFB.
+Unbanned the <span style="color: #8B0000;">Rotfrontkämpferbund</span>.
 
 @editreichswehr
 
