@@ -892,7 +892,7 @@ on-arrival: {!
 Q.rfb_strength += 200;
 !}
 
-Raised <span style="color: #8B0000;">Rotfrontkämpferbund</span> strength by 200.
+Raised <span style="color: #8B0000;">**Rotfrontkämpferbund**</span> strength by 200.
 
 @lowerrfbstrength
 go-to: editparamilitary
@@ -900,7 +900,7 @@ on-arrival: {!
 Q.rfb_strength -= 200;
 !}
 
-Lowered <span style="color: #8B0000;">Rotfrontkämpferbund</span> strength by 200.
+Lowered <span style="color: #8B0000;">**Rotfrontkämpferbund**</span> strength by 200.
 
 @raiserfbmilitancy
 go-to: editparamilitary
@@ -908,7 +908,7 @@ on-arrival: {!
 Q.rfb_militancy += 0.15;
 !}
 
-Raised <span style="color: #8B0000;">Rotfrontkämpferbund</span> militancy.
+Raised <span style="color: #8B0000;">**Rotfrontkämpferbund**</span> militancy.
 
 @lowerrfbmilitancy
 go-to: editparamilitary
@@ -916,7 +916,7 @@ on-arrival: {!
 Q.rfb_militancy -= 0.15;
 !}
 
-Lowered <span style="color: #8B0000;">Rotfrontkämpferbund</span> militancy.
+Lowered <span style="color: #8B0000;">**Rotfrontkämpferbund**</span> militancy.
 
 @banrfb
 go-to: editparamilitary
@@ -925,7 +925,7 @@ on-arrival: {!
 Q.rfb_banned = 1;
 !}
 
-Banned the <span style="color: #8B0000;">Rotfrontkämpferbund</span>.
+Banned the <span style="color: #8B0000;">**Rotfrontkämpferbund**</span>.
 
 @unbanrfb
 go-to: editparamilitary
@@ -934,7 +934,7 @@ on-arrival: {!
 Q.rfb_banned = 0;
 !}
 
-Unbanned the <span style="color: #8B0000;">Rotfrontkämpferbund</span>.
+Unbanned the <span style="color: #8B0000;">**Rotfrontkämpferbund**</span>.
 
 @editreichswehr
 
