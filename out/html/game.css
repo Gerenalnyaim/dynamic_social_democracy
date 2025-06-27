@@ -713,6 +713,10 @@ th {
   fill: #000;
 }
 
+.seat.kpo {
+  fill: #C43988;
+}
+
 .seat.bvp {
   fill: #A2D8E0;
 }
