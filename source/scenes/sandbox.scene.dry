@@ -2794,10 +2794,10 @@ Q.new_middle_rdp += 20;
 
 Raised New Middle Class support for RDP.
 
-@spd_new_middle_down
-go-to: spd_support
+@rdp_new_middle_down
+go-to: rdp_support
 on-arrival: {!
-Q.new_middle_spd -= 20;
+Q.new_middle_rdp -= 20;
 !}
 
 Lowered New Middle Class support for RDP.
@@ -2816,39 +2816,39 @@ on-arrival: {!
 Q.rural_rdp -= 20;
 !}
 
-Lowered Rural support for rdp.
+Lowered Rural support for RDP.
 
-@spd_unemployed_up
-go-to: spd_support
+@rdp_unemployed_up
+go-to: rdp_support
 on-arrival: {!
-Q.unemployed_spd += 20;
+Q.unemployed_rdp += 20;
 !}
 
-Raised Unemployed support for SPD.
+Raised Unemployed support for RDP.
 
-@spd_unemployed_down
-go-to: spd_support
+@rdp_unemployed_down
+go-to: rdp_support
 on-arrival: {!
-Q.unemployed_spd -= 20;
+Q.unemployed_rdp -= 20;
 !}
 
-Lowered Unemployed support for SPD.
+Lowered Unemployed support for RDP.
 
-@spd_catholics_up
-go-to: spd_support
+@rdp_catholics_up
+go-to: rdp_support
 on-arrival: {!
-Q.catholics_spd += 20;
+Q.catholics_rdp += 20;
 !}
 
-Raised Catholics support for SPD.
+Raised Catholics support for RDP.
 
-@spd_catholics_down
-go-to: spd_support
+@rdp_catholics_down
+go-to: rdp_support
 on-arrival: {!
-Q.catholics_spd -= 20;
+Q.catholics_rdp -= 20;
 !}
 
-Lowered Catholics support for SPD.
+Lowered Catholics support for RDP.
 
 @sapd_support
 view-if: sapd_formed == 1
