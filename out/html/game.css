@@ -870,6 +870,31 @@ th {
   fill: #ADC1FD;
 }
 
+.seat.left {
+  fill: #AF0202;
+}
+
+.seat.centr {
+  fill: #CE2D2D;
+}
+
+.seat.llab {
+  fill: #EF3636;
+}
+
+.seat.rlab {
+  fill: #DC5454;
+}
+
+.seat.refrm {
+  fill: #F99E9E;
+}
+
+.seat.neorev {
+  fill: #800020;
+}
+
+
 .tooltip-text {
   text-decoration: underline;
   text-decoration-style: dotted;
