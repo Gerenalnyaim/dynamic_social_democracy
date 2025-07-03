@@ -38,28 +38,52 @@ go-to: sandbox_menu
 - @goback: Return to the sandbox menu
 
 @lvpleft
-go-to: editleftright
-on-arrival: lvp_left += 1;
+go-to: sandbox_menu
+on-arrival: {!
+lvp_left += 1;
+!}
+
+Made the LVP more left
 
 @lvpright
-go-to: editleftright
-on-arrival: lvp_right += 1;
+go-to: sandbox_menu
+on-arrival: {!
+lvp_right += 1;
+!}
+
+Made the LVP more right
 
 @ddpleft
-go-to: editleftright
-on-arrival: ddp_left += 1;
+go-to: sandbox_menu
+on-arrival: {!
+ddp_left += 1;
+!}
+
+Made the DDP more left
 
 @ddpright
-go-to: editleftright
-on-arrival: ddp_right += 1;
+go-to: sandbox_menu
+on-arrival: {!
+ddp_right += 1;
+!}
+
+Made the DDP more right
 
 @dvpleft
 go-to: editleftright
-on-arrival: dvp_left += 1;
+on-arrival: {!
+dvp_left += 1;
+!}
+
+Made the DVP more left
 
 @dvpright
 go-to: editleftright
-on-arrival: dvp_right += 1;
+on-arrival: {!
+dvp_right += 1;
+!}
+
+Made the DVP more right
 
 @goback
 go-to: sandbox_menu
@@ -82,51 +106,51 @@ go-to: sandbox_menu
 - @goback: Return to the sandbox menu
 
 @add1inflation
-go-to: breitscheid
+go-to: editdepression
 on-arrival: inflation += 1
 
 @remove1inflation
-go-to: breitscheid
+go-to: editdepression
 on-arrival: inflation -= 1
 
 @add1unemployed
-go-to: breitscheid
+go-to: editdepression
 on-arrival: unemployed += 1
 
 @remove1unemployed
-go-to: breitscheid
+go-to: editdepresstion
 on-arrival: unemployed -= 1
 
 @add1ecogrow
-go-to: breitscheid
+go-to: editdepression
 on-arrival: economic_growth += 1
 
 @remove1ecogrow
-go-to: breitscheid
+go-to: editdepression
 on-arrival: economic_growth -= 1
 
 @add10inflation
-go-to: breitscheid
+go-to: editdepression
 on-arrival: inflation += 10
 
 @remove10inflation
-go-to: breitscheid
+go-to: editdepression
 on-arrival: inflation -= 10
 
 @add10unemployed
-go-to: breitscheid
+go-to: editdepression
 on-arrival: unemployed += 10
 
 @remove10unemployed
-go-to: breitscheid
+go-to: editdepression
 on-arrival: unemployed -= 10
 
 @add10ecogrow
-go-to: breitscheid
+go-to: editdepression
 on-arrival: economic_growth += 10
 
 @remove10ecogrow
-go-to: breitscheid
+go-to: editdepression
 on-arrival: economic_growth -= 10
 
 @edit_hindenburg_angry
