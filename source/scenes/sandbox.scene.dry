@@ -8,6 +8,9 @@ go-to: sandbox_menu
 
 @sandbox_menu
 
+- @editleftright: Edit how left of right a party is
+- @editdepression: Edit the economy of the Republic
+- @edit_hindenburg_angry: Edit how mad Hindenburg is at the SPD
 - @disable_end: Disable End In 1934
 - @enable_end: Enable End In 1934
 - @editresources: Edit Resources
@@ -23,6 +26,130 @@ go-to: sandbox_menu
 - @editironfront: Edit Iron Front
 - @editparamilitary: Edit Paramilitary Groups
 - @editreichswehr: Edit Reichswehr and Police
+
+@editleftright
+
+- @lvpleft: Increase LVP Leftism
+- @lvpright: Increase LVP Rightism
+- @ddpleft: Increase DDP Leftism
+- @ddpright: Increase DDP Rightism
+- @dvpleft: Increase DVP Leftism
+- @dvpright: Increase DVP Rightism
+- @goback: Return to the sandbox menu
+
+@lvpleft
+go-to: editleftright
+on-arrival: lvp_left += 1;
+
+@lvpright
+go-to: editleftright
+on-arrival: lvp_right += 1;
+
+@ddpleft
+go-to: editleftright
+on-arrival: ddp_left += 1;
+
+@ddpright
+go-to: editleftright
+on-arrival: ddp_right += 1;
+
+@dvpleft
+go-to: editleftright
+on-arrival: dvp_left += 1;
+
+@dvpright
+go-to: editleftright
+on-arrival: dvp_right += 1;
+
+@goback
+go-to: sandbox_menu
+
+
+@editdepression
+
+- @add1inflation: Raise inflation by 1
+- @remove1inflation: Lower inflation by 1
+- @add1unemployed: Raise unemployment by 1
+- @remove1unemployed: Lower unemployment by 1
+- @add1ecogrow: Raise economic growth by 1
+- @remove1ecogrow: Lower economic growth by 1
+- @add10inflation: Raise inflation by 10
+- @remove10inflation: Lower inflation by 10
+- @add10unemployed: Raise unemployment by 10
+- @remove10unemployed: Lower unemployment by 10
+- @add10ecogrow: Raise economic growth by 10
+- @remove10ecogrow: Lower economic growth by 10
+- @goback: Return to the sandbox menu
+
+@add1inflation
+go-to: breitscheid
+on-arrival: inflation += 1
+
+@remove1inflation
+go-to: breitscheid
+on-arrival: inflation -= 1
+
+@add1unemployed
+go-to: breitscheid
+on-arrival: unemployed += 1
+
+@remove1unemployed
+go-to: breitscheid
+on-arrival: unemployed -= 1
+
+@add1ecogrow
+go-to: breitscheid
+on-arrival: economic_growth += 1
+
+@remove1ecogrow
+go-to: breitscheid
+on-arrival: economic_growth -= 1
+
+@add10inflation
+go-to: breitscheid
+on-arrival: inflation += 10
+
+@remove10inflation
+go-to: breitscheid
+on-arrival: inflation -= 10
+
+@add10unemployed
+go-to: breitscheid
+on-arrival: unemployed += 10
+
+@remove10unemployed
+go-to: breitscheid
+on-arrival: unemployed -= 10
+
+@add10ecogrow
+go-to: breitscheid
+on-arrival: economic_growth += 10
+
+@remove10ecogrow
+go-to: breitscheid
+on-arrival: economic_growth -= 10
+
+@goback
+go-to:sandbox_menu
+
+@edit_hindenburg_angry
+
+- @maxangry: Make Hindenburg crash out
+- @noangry: Make Hindenburg love the SPD
+- @raiseangry: Hindenburg is starting to get a little angry
+- @lowerangry: Hindenburg is getting a little less angry
+
+@maxangry
+on-arrival: hindenburg_angry = 120
+
+@noangry
+on-arrival: hindenburg_angry = 0
+
+@raiseangry
+on-arrival: hindenburg_angry += 5
+
+@lowerangry
+on-arrival: hindenburg_angry -= 5
 
 @disable_end
 view-if: end_disabled != 1
