@@ -29,8 +29,8 @@ go-to: sandbox_menu
 
 @editleftright
 
-- @lvpleft: Increase LVP Leftism
-- @lvpright: Increase LVP Rightism
+- @lvpleft: Increase <span style="color: #FFCC00;">**LVP**</span> Leftism
+- @lvpright: Increase <span style="color: #FFCC00;">**LVP**</span> Rightism
 - @ddpleft: Increase DDP Leftism
 - @ddpright: Increase DDP Rightism
 - @dvpleft: Increase DVP Leftism
