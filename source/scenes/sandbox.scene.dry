@@ -8,8 +8,8 @@ go-to: sandbox_menu
 
 @sandbox_menu
 
-- @editleftright: Edit how left of right a party is
-- @editdepression: Edit the economy of the Republic
+- @editleftright: Edit how Left/Right a party is
+- @editdepression: Edit the Economy
 - @edit_hindenburg_angry: Edit how mad Hindenburg is at the SPD
 - @disable_end: Disable End In 1934
 - @enable_end: Enable End In 1934
@@ -40,7 +40,7 @@ go-to: sandbox_menu
 @lvpleft
 go-to: sandbox_menu
 on-arrival: {!
-lvp_left += 1;
+lvp_left += 5;
 !}
 
 Made the LVP more left
@@ -48,23 +48,23 @@ Made the LVP more left
 @lvpright
 go-to: sandbox_menu
 on-arrival: {!
-lvp_right += 1;
+lvp_right += 5;
 !}
 
 Made the LVP more right
 
 @ddpleft
-go-to: sandbox_menu
+go-to: editleftright
 on-arrival: {!
-ddp_left += 1;
+ddp_left += 5;
 !}
 
 Made the DDP more left
 
 @ddpright
-go-to: sandbox_menu
+go-to: editleftright
 on-arrival: {!
-ddp_right += 1;
+ddp_right += 5;
 !}
 
 Made the DDP more right
@@ -72,7 +72,7 @@ Made the DDP more right
 @dvpleft
 go-to: editleftright
 on-arrival: {!
-dvp_left += 1;
+dvp_left += 5;
 !}
 
 Made the DVP more left
@@ -80,7 +80,7 @@ Made the DVP more left
 @dvpright
 go-to: editleftright
 on-arrival: {!
-dvp_right += 1;
+dvp_right += 5;
 !}
 
 Made the DVP more right
