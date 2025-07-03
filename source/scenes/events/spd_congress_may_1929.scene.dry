@@ -334,7 +334,7 @@ The <span style="color: #AF0202;">Left Socialists</span>, however, are furious. 
 
 
 @no_compromise
-title: We shall not compromise with the bourgiousie! The rights of the workers must be upheld.
+title: We shall not compromise with the bourgiousie! The rights of the workers must be upheld!
 subtitle: With the majority of the congress controlled by the factions of the left, the resolution is passed.
 choose-if: con_llabor_strength + con_left_strength >= 199
 unavailable-subtitle: The Left does not have enough power.
