@@ -106,51 +106,51 @@ go-to: sandbox_menu
 - @goback: Return to the sandbox menu
 
 @add1inflation
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: inflation += 1
 
 @remove1inflation
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: inflation -= 1
 
 @add1unemployed
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: unemployed += 1
 
 @remove1unemployed
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: unemployed -= 1
 
 @add1ecogrow
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: economic_growth += 1
 
 @remove1ecogrow
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: economic_growth -= 1
 
 @add10inflation
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: inflation += 10
 
 @remove10inflation
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: inflation -= 10
 
 @add10unemployed
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: unemployed += 10
 
 @remove10unemployed
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: unemployed -= 10
 
 @add10ecogrow
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: economic_growth += 10
 
 @remove10ecogrow
-go-to: editdepression
+go-to: sandbox_menu
 on-arrival: economic_growth -= 10
 
 @edit_hindenburg_angry
