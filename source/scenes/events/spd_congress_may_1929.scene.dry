@@ -1,6 +1,6 @@
 title: The <span style="color: #c00000;">**SPD**</span> leadership meets to discuss the future of the Party.
 new-page: true
-subtitle: TEST
+subtitle: The <span style="color: #c00000;">**SPD**</span> decides its fate.
 tags: event
 priority: 1
 view-if: year == 1929 and month == 5
@@ -280,15 +280,15 @@ var width = 500;
 
 **Seat Distribution:**
 
-{!<tr><td><div class="box2" style='background-color:#AF0202'> </div> !} Left: [+ con_left_strength +] seats
+[ {!<tr><td><div class="box2" style='background-color:#AF0202'> </div> !} Left: [+ con_left_strength +] seats ?]
 
-{!<tr><td><div class="box2" style='background-color:#CE2D2D'> </div> !} Center: [+ con_center_strength +] seats
+[ {!<tr><td><div class="box2" style='background-color:#CE2D2D'> </div> !} Center: [+ con_center_strength +] seats ?]
 
-{!<tr><td><div class="box2" style='background-color:#F99E9E'> </div> !} Reformists: [+ con_reform_strength +] seats
+[ {!<tr><td><div class="box2" style='background-color:#F99E9E'> </div> !} Reformists: [+ con_reform_strength +] seats ?]
 
-{!<tr><td><div class="box2" style='background-color:#EF3636'> </div> !} Left Labor: [+ con_llabor_strength +] seats
+[ {!<tr><td><div class="box2" style='background-color:#EF3636'> </div> !} Left Labor: [+ con_llabor_strength +] seats ?]
 
-{!<tr><td><div class="box2" style='background-color:#DC5454'> </div> !} Right Labor: [+ con_rlabor_strength +] seats
+[ {!<tr><td><div class="box2" style='background-color:#DC5454'> </div> !} Right Labor: [+ con_rlabor_strength +] seats ?]
 
 [? if con_rural_strength > 0: {!<tr><td><div class="box2" style='background-color:#38C538'> </div> !} Agrarian Socialists: [+ con_rural_strength +] seats ?]
 
