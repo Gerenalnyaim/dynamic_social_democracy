@@ -118,7 +118,7 @@ go-to: editdepression
 on-arrival: unemployed += 1
 
 @remove1unemployed
-go-to: editdepresstion
+go-to: editdepression
 on-arrival: unemployed -= 1
 
 @add1ecogrow
