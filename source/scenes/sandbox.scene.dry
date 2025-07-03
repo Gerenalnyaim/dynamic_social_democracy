@@ -129,9 +129,6 @@ on-arrival: economic_growth += 10
 go-to: breitscheid
 on-arrival: economic_growth -= 10
 
-@goback
-go-to:sandbox_menu
-
 @edit_hindenburg_angry
 
 - @maxangry: Make Hindenburg crash out
