@@ -1383,13 +1383,7 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['rdp'] = 0;
 }
-!}
 
-Q.pro_republic += 3;
-
-Q.lvp_relation -= 4;
-Q.lvp_right += 1;
-!}
 
 Formed the <span style="color: #E0B0FF;">**RDP**</span>.
 
@@ -1643,7 +1637,7 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['dnf'] = 0;
 }
-!}
+
 go-to: dnf_collapse_right_coalition if right_coalition < 50 and in_right_coalition == 1; dnf_collapse_center_right_coalition if center_right_coalition < 50 and in_center_right_coalition == 1
 
 Formed the DNF.
@@ -1900,7 +1894,6 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['kvp'] = 0;
 }
-!}
 
 Formed the KVP.
 
@@ -2650,7 +2643,6 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['dnef'] = 0;
 }
-!}
 
 Formed the DNEF
 
@@ -2691,7 +2683,6 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['aspd'] = 0;
 }
-!}
 
 Formed the ASPD.
 
@@ -2744,7 +2735,6 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['nvf'] = 0;
 }
-!}
 
 Q.dsu_r = 0;
 Q.old_dsu_r = 0;
@@ -2754,7 +2744,7 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['dsu'] = 0;
 }
-!}
+
 
 These parties are doomed to eternal infighting
 
