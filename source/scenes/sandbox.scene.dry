@@ -3271,7 +3271,7 @@ Lowered Old Middle Class support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.new_middle_kpo += 20;
-!}
+
 
 Raised New Middle Class support for KPO.
 
@@ -3279,7 +3279,7 @@ Raised New Middle Class support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.new_middle_kpo -= 20;
-!}
+
 
 Lowered New Middle Class support for KPO.
 
@@ -3287,7 +3287,7 @@ Lowered New Middle Class support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.rural_kpo += 20;
-!}
+
 
 Raised Rural support for KPO.
 
@@ -3295,7 +3295,7 @@ Raised Rural support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.rural_kpo -= 20;
-!}
+
 
 Lowered Rural support for KPO.
 
@@ -3303,7 +3303,7 @@ Lowered Rural support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.unemployed_kpo += 20;
-!}
+
 
 Raised Unemployed support for KPO.
 
@@ -3311,7 +3311,7 @@ Raised Unemployed support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.unemployed_kpo -= 20;
-!}
+
 
 Lowered Unemployed support for KPO.
 
@@ -3319,7 +3319,7 @@ Lowered Unemployed support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.catholics_kpo += 20;
-!}
+
 
 Raised Catholics support for KPO.
 
@@ -3327,7 +3327,7 @@ Raised Catholics support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.catholics_kpo -= 20;
-!}
+
 
 Lowered Catholics support for KPO.
 
@@ -3352,7 +3352,7 @@ Lowered Catholics support for KPO.
 go-to: kpd_support
 on-arrival: {!
 Q.workers_kpd += 20;
-!}
+
 
 Raised worker support for KPD.
 
@@ -3360,7 +3360,6 @@ Raised worker support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.workers_kpd -= 20;
-!}
 
 Lowered worker support for KPD.
 
@@ -3368,7 +3367,7 @@ Lowered worker support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.old_middle_kpd += 20;
-!}
+
 
 Raised Old Middle Class support for KPD.
 
@@ -3376,7 +3375,7 @@ Raised Old Middle Class support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.old_middle_kpd -= 20;
-!}
+
 
 Lowered Old Middle Class support for KPD.
 
@@ -3384,7 +3383,7 @@ Lowered Old Middle Class support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.new_middle_kpd += 20;
-!}
+
 
 Raised New Middle Class support for KPD.
 
@@ -3392,7 +3391,7 @@ Raised New Middle Class support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.new_middle_kpd -= 20;
-!}
+
 
 Lowered New Middle Class support for KPD.
 
@@ -3400,7 +3399,7 @@ Lowered New Middle Class support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.rural_kpd += 20;
-!}
+
 
 Raised Rural support for KPD.
 
@@ -3408,7 +3407,7 @@ Raised Rural support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.rural_kpd -= 20;
-!}
+
 
 Lowered Rural support for KPD.
 
@@ -3416,7 +3415,7 @@ Lowered Rural support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.unemployed_kpd += 20;
-!}
+
 
 Raised Unemployed support for KPD.
 
@@ -3424,7 +3423,7 @@ Raised Unemployed support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.unemployed_kpd -= 20;
-!}
+
 
 Lowered Unemployed support for KPD.
 
@@ -3432,7 +3431,7 @@ Lowered Unemployed support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.catholics_kpd += 20;
-!}
+
 
 Raised Catholics support for KPD.
 
@@ -3440,7 +3439,7 @@ Raised Catholics support for KPD.
 go-to: kpd_support
 on-arrival: {!
 Q.catholics_kpd -= 20;
-!}
+
 
 Lowered Catholics support for KPD.
 
@@ -3465,7 +3464,7 @@ view-if: dnf_formed == 1
 go-to: dnf_support
 on-arrival: {!
 Q.workers_dnf += 20;
-!}
+
 
 Raised worker support for DNF.
 
@@ -3473,7 +3472,7 @@ Raised worker support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.workers_dnf -= 20;
-!}
+
 
 Lowered worker support for DNF.
 
@@ -3481,7 +3480,7 @@ Lowered worker support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.old_middle_dnf += 20;
-!}
+
 
 Raised Old Middle Class support for DNF.
 
@@ -3489,7 +3488,7 @@ Raised Old Middle Class support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.old_middle_dnf -= 20;
-!}
+
 
 Lowered Old Middle Class support for DNF.
 
@@ -3497,7 +3496,7 @@ Lowered Old Middle Class support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.new_middle_dnf += 20;
-!}
+
 
 Raised New Middle Class support for DNF.
 
@@ -3505,7 +3504,7 @@ Raised New Middle Class support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.new_middle_dnf -= 20;
-!}
+
 
 Lowered New Middle Class support for DNF.
 
@@ -3513,7 +3512,7 @@ Lowered New Middle Class support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.rural_dnf += 20;
-!}
+
 
 Raised Rural support for DNF.
 
@@ -3521,7 +3520,7 @@ Raised Rural support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.rural_dnf -= 20;
-!}
+
 
 Lowered Rural support for DNF.
 
@@ -3529,7 +3528,7 @@ Lowered Rural support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.unemployed_dnf += 20;
-!}
+
 
 Raised Unemployed support for DNF.
 
@@ -3537,7 +3536,7 @@ Raised Unemployed support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.unemployed_dnf -= 20;
-!}
+
 
 Lowered Unemployed support for DNF.
 
@@ -3545,7 +3544,7 @@ Lowered Unemployed support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.catholics_dnf += 20;
-!}
+
 
 Raised Catholics support for DNF.
 
@@ -3553,7 +3552,7 @@ Raised Catholics support for DNF.
 go-to: dnf_support
 on-arrival: {!
 Q.catholics_dnf -= 20;
-!}
+
 
 Lowered Catholics support for DNF.
 
@@ -3578,7 +3577,7 @@ view-if: kvp_formed == 1
 go-to: kvp_support
 on-arrival: {!
 Q.workers_kvp += 20;
-!}
+
 
 Raised worker support for KVP.
 
@@ -3586,7 +3585,7 @@ Raised worker support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.workers_kvp -= 20;
-!}
+
 
 Lowered worker support for KVP.
 
@@ -3594,7 +3593,7 @@ Lowered worker support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.old_middle_kvp += 20;
-!}
+
 
 Raised Old Middle Class support for KVP.
 
@@ -3602,7 +3601,7 @@ Raised Old Middle Class support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.old_middle_kvp -= 20;
-!}
+
 
 Lowered Old Middle Class support for KVP.
 
@@ -3610,7 +3609,7 @@ Lowered Old Middle Class support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.new_middle_kvp += 20;
-!}
+
 
 Raised New Middle Class support for KVP.
 
@@ -3618,7 +3617,7 @@ Raised New Middle Class support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.new_middle_kvp -= 20;
-!}
+
 
 Lowered New Middle Class support for KVP.
 
@@ -3626,7 +3625,7 @@ Lowered New Middle Class support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.rural_kvp += 20;
-!}
+
 
 Raised Rural support for KVP.
 
@@ -3634,7 +3633,7 @@ Raised Rural support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.rural_kvp -= 20;
-!}
+
 
 Lowered Rural support for KVP.
 
@@ -3642,7 +3641,7 @@ Lowered Rural support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.unemployed_kvp += 20;
-!}
+
 
 Raised Unemployed support for KVP.
 
@@ -3650,7 +3649,7 @@ Raised Unemployed support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.unemployed_kvp -= 20;
-!}
+
 
 Lowered Unemployed support for KVP.
 
@@ -3658,7 +3657,7 @@ Lowered Unemployed support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.catholics_kvp += 20;
-!}
+
 
 Raised Catholics support for KVP.
 
@@ -3666,7 +3665,7 @@ Raised Catholics support for KVP.
 go-to: kvp_support
 on-arrival: {!
 Q.catholics_kvp -= 20;
-!}
+
 
 Lowered Catholics support for KVP.
 
@@ -3691,7 +3690,7 @@ view-if: lvp_formed == 1
 go-to: lvp_support
 on-arrival: {!
 Q.workers_lvp += 20;
-!}
+
 
 Raised worker support for LVP.
 
@@ -3699,7 +3698,7 @@ Raised worker support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.workers_lvp -= 20;
-!}
+
 
 Lowered worker support for LVP.
 
@@ -3707,7 +3706,7 @@ Lowered worker support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.old_middle_lvp += 20;
-!}
+
 
 Raised Old Middle Class support for LVP.
 
@@ -3715,7 +3714,7 @@ Raised Old Middle Class support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.old_middle_lvp -= 20;
-!}
+
 
 Lowered Old Middle Class support for LVP.
 
@@ -3723,7 +3722,7 @@ Lowered Old Middle Class support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.new_middle_lvp += 20;
-!}
+
 
 Raised New Middle Class support for LVP.
 
@@ -3731,7 +3730,7 @@ Raised New Middle Class support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.new_middle_lvp -= 20;
-!}
+
 
 Lowered New Middle Class support for LVP.
 
@@ -3739,7 +3738,7 @@ Lowered New Middle Class support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.rural_lvp += 20;
-!}
+
 
 Raised Rural support for LVP.
 
@@ -3747,7 +3746,7 @@ Raised Rural support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.rural_lvp -= 20;
-!}
+
 
 Lowered Rural support for LVP.
 
@@ -3755,7 +3754,7 @@ Lowered Rural support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.unemployed_lvp += 20;
-!}
+
 
 Raised Unemployed support for LVP.
 
@@ -3763,7 +3762,7 @@ Raised Unemployed support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.unemployed_lvp -= 20;
-!}
+
 
 Lowered Unemployed support for LVP.
 
@@ -3771,7 +3770,7 @@ Lowered Unemployed support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.catholics_lvp += 20;
-!}
+
 
 Raised Catholics support for LVP.
 
@@ -3779,7 +3778,7 @@ Raised Catholics support for LVP.
 go-to: lvp_support
 on-arrival: {!
 Q.catholics_lvp -= 20;
-!}
+
 
 Lowered Catholics support for LVP.
 
