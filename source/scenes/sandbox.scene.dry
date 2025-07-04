@@ -2790,7 +2790,7 @@ go-to: editpartysupport
 go-to: spd_support
 on-arrival: {!
 Q.workers_spd += 20;
-!}
+
 
 Raised worker support for SPD.
 
@@ -2798,7 +2798,7 @@ Raised worker support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.workers_spd -= 20;
-!}
+
 
 Lowered worker support for SPD.
 
@@ -2806,7 +2806,7 @@ Lowered worker support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.old_middle_spd += 20;
-!}
+
 
 Raised Old Middle Class support for SPD.
 
@@ -2814,7 +2814,7 @@ Raised Old Middle Class support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.old_middle_spd -= 20;
-!}
+
 
 Lowered Old Middle Class support for SPD.
 
@@ -2822,7 +2822,7 @@ Lowered Old Middle Class support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.new_middle_spd += 20;
-!}
+
 
 Raised New Middle Class support for SPD.
 
@@ -2830,7 +2830,7 @@ Raised New Middle Class support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.new_middle_spd -= 20;
-!}
+
 
 Lowered New Middle Class support for SPD.
 
@@ -2838,7 +2838,7 @@ Lowered New Middle Class support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.rural_spd += 20;
-!}
+
 
 Raised Rural support for SPD.
 
@@ -2846,7 +2846,7 @@ Raised Rural support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.rural_spd -= 20;
-!}
+
 
 Lowered Rural support for SPD.
 
@@ -2854,7 +2854,7 @@ Lowered Rural support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.unemployed_spd += 20;
-!}
+
 
 Raised Unemployed support for SPD.
 
@@ -2862,7 +2862,7 @@ Raised Unemployed support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.unemployed_spd -= 20;
-!}
+
 
 Lowered Unemployed support for SPD.
 
@@ -2870,7 +2870,7 @@ Lowered Unemployed support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.catholics_spd += 20;
-!}
+
 
 Raised Catholics support for SPD.
 
@@ -2878,7 +2878,7 @@ Raised Catholics support for SPD.
 go-to: spd_support
 on-arrival: {!
 Q.catholics_spd -= 20;
-!}
+
 
 Lowered Catholics support for SPD.
 
@@ -2902,7 +2902,7 @@ Lowered Catholics support for SPD.
 go-to: rdp_support
 on-arrival: {!
 Q.workers_rdp += 20;
-!}
+
 
 Raised worker support for RDP.
 
@@ -2910,7 +2910,7 @@ Raised worker support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.workers_rdp -= 20;
-!}
+
 
 Lowered worker support for RDP.
 
@@ -2918,7 +2918,7 @@ Lowered worker support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.old_middle_rdp += 20;
-!}
+
 
 Raised Old Middle Class support for RDP.
 
@@ -2926,7 +2926,7 @@ Raised Old Middle Class support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.old_middle_rdp -= 20;
-!}
+
 
 Lowered Old Middle Class support for RDP.
 
@@ -2934,7 +2934,7 @@ Lowered Old Middle Class support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.new_middle_rdp += 20;
-!}
+
 
 Raised New Middle Class support for RDP.
 
@@ -2942,7 +2942,7 @@ Raised New Middle Class support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.new_middle_rdp -= 20;
-!}
+
 
 Lowered New Middle Class support for RDP.
 
@@ -2950,7 +2950,7 @@ Lowered New Middle Class support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.rural_rdp += 20;
-!}
+
 
 Raised Rural support for RDP.
 
@@ -2958,7 +2958,7 @@ Raised Rural support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.rural_rdp -= 20;
-!}
+
 
 Lowered Rural support for RDP.
 
@@ -2966,7 +2966,7 @@ Lowered Rural support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.unemployed_rdp += 20;
-!}
+
 
 Raised Unemployed support for RDP.
 
@@ -2974,7 +2974,7 @@ Raised Unemployed support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.unemployed_rdp -= 20;
-!}
+
 
 Lowered Unemployed support for RDP.
 
@@ -2982,7 +2982,7 @@ Lowered Unemployed support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.catholics_rdp += 20;
-!}
+
 
 Raised Catholics support for RDP.
 
@@ -2990,7 +2990,7 @@ Raised Catholics support for RDP.
 go-to: rdp_support
 on-arrival: {!
 Q.catholics_rdp -= 20;
-!}
+
 
 Lowered Catholics support for RDP.
 
@@ -3015,7 +3015,7 @@ view-if: sapd_formed == 1
 go-to: sapd_support
 on-arrival: {!
 Q.workers_sapd += 20;
-!}
+
 
 Raised worker support for SAPD.
 
@@ -3023,7 +3023,7 @@ Raised worker support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.workers_sapd -= 20;
-!}
+
 
 Lowered worker support for SAPD.
 
@@ -3031,7 +3031,7 @@ Lowered worker support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.old_middle_sapd += 20;
-!}
+
 
 Raised Old Middle Class support for SAPD.
 
@@ -3039,7 +3039,7 @@ Raised Old Middle Class support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.old_middle_sapd -= 20;
-!}
+
 
 Lowered Old Middle Class support for SAPD.
 
@@ -3047,7 +3047,7 @@ Lowered Old Middle Class support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.new_middle_sapd += 20;
-!}
+
 
 Raised New Middle Class support for SAPD.
 
@@ -3055,7 +3055,7 @@ Raised New Middle Class support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.new_middle_sapd -= 20;
-!}
+
 
 Lowered New Middle Class support for SAPD.
 
@@ -3063,7 +3063,7 @@ Lowered New Middle Class support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.rural_sapd += 20;
-!}
+
 
 Raised Rural support for SAPD.
 
@@ -3071,7 +3071,7 @@ Raised Rural support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.rural_sapd -= 20;
-!}
+
 
 Lowered Rural support for SAPD.
 
@@ -3079,7 +3079,7 @@ Lowered Rural support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.unemployed_sapd += 20;
-!}
+
 
 Raised Unemployed support for SAPD.
 
@@ -3087,7 +3087,7 @@ Raised Unemployed support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.unemployed_sapd -= 20;
-!}
+
 
 Lowered Unemployed support for SAPD.
 
@@ -3095,7 +3095,7 @@ Lowered Unemployed support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.catholics_sapd += 20;
-!}
+
 
 Raised Catholics support for SAPD.
 
@@ -3103,7 +3103,7 @@ Raised Catholics support for SAPD.
 go-to: sapd_support
 on-arrival: {!
 Q.catholics_sapd -= 20;
-!}
+
 
 Lowered Catholics support for SAPD.
 
