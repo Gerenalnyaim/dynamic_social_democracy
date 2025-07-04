@@ -2268,7 +2268,6 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['lvp'] = 0;
 }
-!}
 
 Formed the LVP.
 
