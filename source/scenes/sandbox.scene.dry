@@ -1300,7 +1300,7 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['kpo'] = 0;
 }
-!}
+
 
 Formed the <span style="color: #C43988;">**KPO**</span>
 
