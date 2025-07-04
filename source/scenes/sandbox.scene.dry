@@ -1342,7 +1342,7 @@ for (var record of Q.election_records) {
 for (var record of Q.party_support_records) {
     record['sapd'] = 0;
 }
-!}
+
 
 Formed the <span style="color: #9B0000;">**SAPD**</span>.
 
