@@ -1203,6 +1203,7 @@ Lowered Interior Police loyalty.
 - @unban_kpd: Unban KPD
 - @ban_nsdap: Ban NSDAP
 - @unban_nsdap: Unban NSDAP
+- @form_dstp: Add 5 DStP Formation Points
 - @form_kpo: Form <span style="color: #C43988;">**KPO**</span>
 - @form_sapd: Form <span style="color: #9B0000;">**SAPD**</span>.
 - @form_rdp: Form <span style="color: #E0B0FF;">**RDP**</span>.
@@ -1258,6 +1259,12 @@ Q.nsdap_banned = 0;
 !}
 
 Unbanned the NSDAP.
+
+@form_DStP
+on-arrival: {!
+Q.dstp_formation_points += 5
+
+Added 5 Formation points
 
 @form_kpo
 on-arrival: {!
