@@ -3802,7 +3802,7 @@ Lowered Catholics support for LVP.
 go-to: ddp_support
 on-arrival: {!
 Q.workers_ddp += 20;
-!}
+
 
 Raised worker support for DDP.
 
@@ -3810,7 +3810,7 @@ Raised worker support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.workers_ddp -= 20;
-!}
+
 
 Lowered worker support for DDP.
 
@@ -3818,7 +3818,7 @@ Lowered worker support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.old_middle_ddp += 20;
-!}
+
 
 Raised Old Middle Class support for DDP.
 
@@ -3826,7 +3826,7 @@ Raised Old Middle Class support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.old_middle_ddp -= 20;
-!}
+
 
 Lowered Old Middle Class support for DDP.
 
@@ -3834,7 +3834,7 @@ Lowered Old Middle Class support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.new_middle_ddp += 20;
-!}
+
 
 Raised New Middle Class support for DDP.
 
@@ -3842,7 +3842,7 @@ Raised New Middle Class support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.new_middle_ddp -= 20;
-!}
+
 
 Lowered New Middle Class support for DDP.
 
@@ -3850,7 +3850,7 @@ Lowered New Middle Class support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.rural_ddp += 20;
-!}
+
 
 Raised Rural support for DDP.
 
@@ -3858,7 +3858,7 @@ Raised Rural support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.rural_ddp -= 20;
-!}
+
 
 Lowered Rural support for DDP.
 
@@ -3866,7 +3866,7 @@ Lowered Rural support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.unemployed_ddp += 20;
-!}
+
 
 Raised Unemployed support for DDP.
 
@@ -3874,7 +3874,7 @@ Raised Unemployed support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.unemployed_ddp -= 20;
-!}
+
 
 Lowered Unemployed support for DDP.
 
@@ -3882,7 +3882,7 @@ Lowered Unemployed support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.catholics_ddp += 20;
-!}
+
 
 Raised Catholics support for DDP.
 
@@ -3890,7 +3890,7 @@ Raised Catholics support for DDP.
 go-to: ddp_support
 on-arrival: {!
 Q.catholics_ddp -= 20;
-!}
+
 
 Lowered Catholics support for DDP.
 
@@ -3914,7 +3914,7 @@ Lowered Catholics support for DDP.
 go-to: dvp_support
 on-arrival: {!
 Q.workers_dvp += 20;
-!}
+
 
 Raised worker support for DVP.
 
@@ -3922,7 +3922,7 @@ Raised worker support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.workers_dvp -= 20;
-!}
+
 
 Lowered worker support for DVP.
 
@@ -3930,7 +3930,7 @@ Lowered worker support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.old_middle_dvp += 20;
-!}
+
 
 Raised Old Middle Class support for DVP.
 
@@ -3938,7 +3938,7 @@ Raised Old Middle Class support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.old_middle_dvp -= 20;
-!}
+
 
 Lowered Old Middle Class support for DVP.
 
@@ -3946,7 +3946,7 @@ Lowered Old Middle Class support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.new_middle_dvp += 20;
-!}
+
 
 Raised New Middle Class support for DVP.
 
@@ -3954,7 +3954,7 @@ Raised New Middle Class support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.new_middle_dvp -= 20;
-!}
+
 
 Lowered New Middle Class support for DVP.
 
@@ -3962,7 +3962,7 @@ Lowered New Middle Class support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.rural_dvp += 20;
-!}
+
 
 Raised Rural support for DVP.
 
@@ -3970,7 +3970,7 @@ Raised Rural support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.rural_dvp -= 20;
-!}
+
 
 Lowered Rural support for DVP.
 
@@ -3978,7 +3978,7 @@ Lowered Rural support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.unemployed_dvp += 20;
-!}
+
 
 Raised Unemployed support for DVP.
 
@@ -3986,7 +3986,7 @@ Raised Unemployed support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.unemployed_dvp -= 20;
-!}
+
 
 Lowered Unemployed support for DVP.
 
@@ -3994,7 +3994,7 @@ Lowered Unemployed support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.catholics_dvp += 20;
-!}
+
 
 Raised Catholics support for DVP.
 
@@ -4002,7 +4002,7 @@ Raised Catholics support for DVP.
 go-to: dvp_support
 on-arrival: {!
 Q.catholics_dvp -= 20;
-!}
+
 
 Lowered Catholics support for DVP.
 
@@ -4026,7 +4026,7 @@ Lowered Catholics support for DVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.workers_dnvp += 20;
-!}
+
 
 Raised worker support for DNVP.
 
@@ -4034,7 +4034,7 @@ Raised worker support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.workers_dnvp -= 20;
-!}
+
 
 Lowered worker support for DNVP.
 
@@ -4042,7 +4042,7 @@ Lowered worker support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.old_middle_dnvp += 20;
-!}
+
 
 Raised Old Middle Class support for DNVP.
 
@@ -4050,7 +4050,7 @@ Raised Old Middle Class support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.old_middle_dnvp -= 20;
-!}
+
 
 Lowered Old Middle Class support for DNVP.
 
@@ -4058,7 +4058,7 @@ Lowered Old Middle Class support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.new_middle_dnvp += 20;
-!}
+
 
 Raised New Middle Class support for DNVP.
 
@@ -4066,7 +4066,7 @@ Raised New Middle Class support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.new_middle_dnvp -= 20;
-!}
+
 
 Lowered New Middle Class support for DNVP.
 
@@ -4074,7 +4074,7 @@ Lowered New Middle Class support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.rural_dnvp += 20;
-!}
+
 
 Raised Rural support for DNVP.
 
@@ -4082,7 +4082,7 @@ Raised Rural support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.rural_dnvp -= 20;
-!}
+
 
 Lowered Rural support for DNVP.
 
@@ -4090,7 +4090,7 @@ Lowered Rural support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.unemployed_dnvp += 20;
-!}
+
 
 Raised Unemployed support for DNVP.
 
@@ -4098,7 +4098,7 @@ Raised Unemployed support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.unemployed_dnvp -= 20;
-!}
+
 
 Lowered Unemployed support for DNVP.
 
@@ -4106,7 +4106,7 @@ Lowered Unemployed support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.catholics_dnvp += 20;
-!}
+
 
 Raised Catholics support for DNVP.
 
@@ -4114,7 +4114,7 @@ Raised Catholics support for DNVP.
 go-to: dnvp_support
 on-arrival: {!
 Q.catholics_dnvp -= 20;
-!}
+
 
 Lowered Catholics support for DNVP.
 
@@ -4138,7 +4138,7 @@ Lowered Catholics support for DNVP.
 go-to: nsdap_support
 on-arrival: {!
 Q.workers_nsdap += 20;
-!}
+
 
 Raised worker support for NSDAP.
 
@@ -4146,7 +4146,7 @@ Raised worker support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.workers_nsdap -= 20;
-!}
+
 
 Lowered worker support for NSDAP.
 
@@ -4154,7 +4154,7 @@ Lowered worker support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.old_middle_nsdap += 20;
-!}
+
 
 Raised Old Middle Class support for NSDAP.
 
@@ -4162,7 +4162,7 @@ Raised Old Middle Class support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.old_middle_nsdap -= 20;
-!}
+
 
 Lowered Old Middle Class support for NSDAP.
 
@@ -4170,7 +4170,7 @@ Lowered Old Middle Class support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.new_middle_nsdap += 20;
-!}
+
 
 Raised New Middle Class support for NSDAP.
 
@@ -4178,7 +4178,7 @@ Raised New Middle Class support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.new_middle_nsdap -= 20;
-!}
+
 
 Lowered New Middle Class support for NSDAP.
 
@@ -4186,7 +4186,7 @@ Lowered New Middle Class support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.rural_nsdap += 20;
-!}
+
 
 Raised Rural support for NSDAP.
 
@@ -4194,7 +4194,7 @@ Raised Rural support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.rural_nsdap -= 20;
-!}
+
 
 Lowered Rural support for NSDAP.
 
@@ -4202,7 +4202,7 @@ Lowered Rural support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.unemployed_nsdap += 20;
-!}
+
 
 Raised Unemployed support for NSDAP.
 
@@ -4210,7 +4210,7 @@ Raised Unemployed support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.unemployed_nsdap -= 20;
-!}
+
 
 Lowered Unemployed support for NSDAP.
 
@@ -4218,7 +4218,7 @@ Lowered Unemployed support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.catholics_nsdap += 20;
-!}
+
 
 Raised Catholics support for NSDAP.
 
@@ -4226,7 +4226,7 @@ Raised Catholics support for NSDAP.
 go-to: nsdap_support
 on-arrival: {!
 Q.catholics_nsdap -= 20;
-!}
+
 
 Lowered Catholics support for NSDAP.
 
@@ -4250,7 +4250,7 @@ Lowered Catholics support for NSDAP.
 go-to: dsu_support
 on-arrival: {!
 Q.workers_dsu += 20;
-!}
+
 
 Raised worker support for DSU.
 
@@ -4258,7 +4258,7 @@ Raised worker support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.workers_dsu -= 20;
-!}
+
 
 Lowered worker support for DSU.
 
@@ -4266,7 +4266,7 @@ Lowered worker support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.old_middle_dsu += 20;
-!}
+
 
 Raised Old Middle Class support for DSU.
 
@@ -4274,7 +4274,7 @@ Raised Old Middle Class support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.old_middle_dsu -= 20;
-!}
+
 
 Lowered Old Middle Class support for DSU.
 
@@ -4282,7 +4282,7 @@ Lowered Old Middle Class support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.new_middle_dsu += 20;
-!}
+
 
 Raised New Middle Class support for DSU.
 
@@ -4290,7 +4290,7 @@ Raised New Middle Class support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.new_middle_dsu -= 20;
-!}
+
 
 Lowered New Middle Class support for DSU.
 
@@ -4298,7 +4298,7 @@ Lowered New Middle Class support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.rural_dsu += 20;
-!}
+
 
 Raised Rural support for DSU.
 
@@ -4306,7 +4306,7 @@ Raised Rural support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.rural_dsu -= 20;
-!}
+
 
 Lowered Rural support for DSU.
 
@@ -4314,7 +4314,7 @@ Lowered Rural support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.unemployed_dsu += 20;
-!}
+
 
 Raised Unemployed support for DSU.
 
@@ -4322,7 +4322,7 @@ Raised Unemployed support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.unemployed_dsu -= 20;
-!}
+
 
 Lowered Unemployed support for DSU.
 
@@ -4330,7 +4330,7 @@ Lowered Unemployed support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.catholics_dsu += 20;
-!}
+
 
 Raised Catholics support for DSU.
 
@@ -4338,7 +4338,7 @@ Raised Catholics support for DSU.
 go-to: dsu_support
 on-arrival: {!
 Q.catholics_dsu -= 20;
-!}
+
 
 Lowered Catholics support for DSU.
 
@@ -4362,7 +4362,7 @@ Lowered Catholics support for DSU.
 go-to: nvf_support
 on-arrival: {!
 Q.workers_nvf += 20;
-!}
+
 
 Raised worker support for NVF.
 
@@ -4370,7 +4370,7 @@ Raised worker support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.workers_nvf -= 20;
-!}
+
 
 Lowered worker support for NVF.
 
@@ -4378,7 +4378,7 @@ Lowered worker support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.nvf_middle_dsu += 20;
-!}
+
 
 Raised Old Middle Class support for NVF.
 
@@ -4386,7 +4386,7 @@ Raised Old Middle Class support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.old_middle_nvf -= 20;
-!}
+
 
 Lowered Old Middle Class support for NVF.
 
@@ -4394,7 +4394,7 @@ Lowered Old Middle Class support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.new_middle_nvf += 20;
-!}
+
 
 Raised New Middle Class support for NVF.
 
@@ -4402,7 +4402,7 @@ Raised New Middle Class support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.new_middle_nvf -= 20;
-!}
+
 
 Lowered New Middle Class support for NVF.
 
@@ -4410,7 +4410,7 @@ Lowered New Middle Class support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.rural_nvf += 20;
-!}
+
 
 Raised Rural support for NVF.
 
@@ -4418,7 +4418,7 @@ Raised Rural support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.rural_nvf -= 20;
-!}
+
 
 Lowered Rural support for NVF.
 
@@ -4426,7 +4426,7 @@ Lowered Rural support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.unemployed_nvf += 20;
-!}
+
 
 Raised Unemployed support for NVF.
 
@@ -4434,7 +4434,7 @@ Raised Unemployed support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.unemployed_nvf -= 20;
-!}
+
 
 Lowered Unemployed support for NVF.
 
@@ -4442,7 +4442,7 @@ Lowered Unemployed support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.catholics_nvf += 20;
-!}
+
 
 Raised Catholics support for NVF.
 
@@ -4450,7 +4450,7 @@ Raised Catholics support for NVF.
 go-to: nvf_support
 on-arrival: {!
 Q.catholics_nvf -= 20;
-!}
+
 
 Lowered Catholics support for NVF.
 
@@ -4475,7 +4475,7 @@ Lowered Catholics support for NVF.
 go-to: other_support
 on-arrival: {!
 Q.workers_other += 20;
-!}
+
 
 Raised worker support for Other.
 
@@ -4483,7 +4483,7 @@ Raised worker support for Other.
 go-to: other_support
 on-arrival: {!
 Q.workers_other -= 20;
-!}
+
 
 Lowered worker support for Other.
 
@@ -4491,7 +4491,7 @@ Lowered worker support for Other.
 go-to: other_support
 on-arrival: {!
 Q.old_middle_other += 20;
-!}
+
 
 Raised Old Middle Class support for Other.
 
@@ -4499,7 +4499,7 @@ Raised Old Middle Class support for Other.
 go-to: other_support
 on-arrival: {!
 Q.old_middle_other -= 20;
-!}
+
 
 Lowered Old Middle Class support for Other.
 
@@ -4507,7 +4507,6 @@ Lowered Old Middle Class support for Other.
 go-to: other_support
 on-arrival: {!
 Q.new_middle_other += 20;
-!}
 
 Raised New Middle Class support for Other.
 
@@ -4515,7 +4514,7 @@ Raised New Middle Class support for Other.
 go-to: other_support
 on-arrival: {!
 Q.new_middle_other -= 20;
-!}
+
 
 Lowered New Middle Class support for Other.
 
@@ -4523,7 +4522,7 @@ Lowered New Middle Class support for Other.
 go-to: other_support
 on-arrival: {!
 Q.rural_other += 20;
-!}
+
 
 Raised Rural support for Other.
 
@@ -4531,7 +4530,7 @@ Raised Rural support for Other.
 go-to: other_support
 on-arrival: {!
 Q.rural_other -= 20;
-!}
+
 
 Lowered Rural support for Other.
 
@@ -4539,7 +4538,7 @@ Lowered Rural support for Other.
 go-to: other_support
 on-arrival: {!
 Q.unemployed_other += 20;
-!}
+
 
 Raised Unemployed support for Other.
 
@@ -4547,7 +4546,7 @@ Raised Unemployed support for Other.
 go-to: other_support
 on-arrival: {!
 Q.unemployed_other -= 20;
-!}
+
 
 Lowered Unemployed support for Other.
 
@@ -4555,7 +4554,7 @@ Lowered Unemployed support for Other.
 go-to: other_support
 on-arrival: {!
 Q.catholics_other += 20;
-!}
+
 
 Raised Catholics support for Other.
 
@@ -4563,6 +4562,6 @@ Raised Catholics support for Other.
 go-to: other_support
 on-arrival: {!
 Q.catholics_other -= 20;
-!}
+
 
 Lowered Catholics support for Other.
