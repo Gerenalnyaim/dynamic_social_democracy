@@ -3127,7 +3127,7 @@ Lowered Catholics support for SAPD.
 go-to: center_support
 on-arrival: {!
 Q.workers_z += 20;
-!}
+
 
 Raised worker support for Center.
 
@@ -3135,7 +3135,7 @@ Raised worker support for Center.
 go-to: center_support
 on-arrival: {!
 Q.workers_z -= 20;
-!}
+
 
 Lowered worker support for Center.
 
@@ -3143,7 +3143,7 @@ Lowered worker support for Center.
 go-to: center_support
 on-arrival: {!
 Q.old_middle_z += 20;
-!}
+
 
 Raised Old Middle Class support for Center.
 
@@ -3151,7 +3151,7 @@ Raised Old Middle Class support for Center.
 go-to: center_support
 on-arrival: {!
 Q.old_middle_z -= 20;
-!}
+
 
 Lowered Old Middle Class support for Center.
 
@@ -3159,7 +3159,7 @@ Lowered Old Middle Class support for Center.
 go-to: center_support
 on-arrival: {!
 Q.new_middle_z += 20;
-!}
+
 
 Raised New Middle Class support for Center.
 
@@ -3167,7 +3167,7 @@ Raised New Middle Class support for Center.
 go-to: center_support
 on-arrival: {!
 Q.new_middle_z -= 20;
-!}
+
 
 Lowered New Middle Class support for Center.
 
@@ -3175,7 +3175,7 @@ Lowered New Middle Class support for Center.
 go-to: center_support
 on-arrival: {!
 Q.rural_z += 20;
-!}
+
 
 Raised Rural support for Center.
 
@@ -3183,7 +3183,7 @@ Raised Rural support for Center.
 go-to: center_support
 on-arrival: {!
 Q.rural_z -= 20;
-!}
+
 
 Lowered Rural support for Center.
 
@@ -3191,7 +3191,7 @@ Lowered Rural support for Center.
 go-to: center_support
 on-arrival: {!
 Q.unemployed_z += 20;
-!}
+
 
 Raised Unemployed support for Center.
 
@@ -3199,7 +3199,7 @@ Raised Unemployed support for Center.
 go-to: center_support
 on-arrival: {!
 Q.unemployed_z -= 20;
-!}
+
 
 Lowered Unemployed support for Center.
 
@@ -3207,7 +3207,7 @@ Lowered Unemployed support for Center.
 go-to: center_support
 on-arrival: {!
 Q.catholics_z += 20;
-!}
+
 
 Raised Catholics support for Center.
 
@@ -3215,7 +3215,7 @@ Raised Catholics support for Center.
 go-to: center_support
 on-arrival: {!
 Q.catholics_z -= 20;
-!}
+
 
 Lowered Catholics support for Center.
 
@@ -3239,7 +3239,7 @@ Lowered Catholics support for Center.
 go-to: kpo_support
 on-arrival: {!
 Q.workers_kpo += 20;
-!}
+
 
 Raised worker support for KPO.
 
@@ -3247,7 +3247,7 @@ Raised worker support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.workers_kpo -= 20;
-!}
+
 
 Lowered worker support for KPO.
 
@@ -3255,7 +3255,7 @@ Lowered worker support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.old_middle_kpo += 20;
-!}
+
 
 Raised Old Middle Class support for KPO.
 
@@ -3263,7 +3263,7 @@ Raised Old Middle Class support for KPO.
 go-to: kpo_support
 on-arrival: {!
 Q.old_middle_kpo -= 20;
-!}
+
 
 Lowered Old Middle Class support for KPO.
 
